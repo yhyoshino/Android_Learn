@@ -1,0 +1,5 @@
+/build
+/src/androidTest
+/src/main/res/drawable-v24
+app.iml
+proguard-rules.pro

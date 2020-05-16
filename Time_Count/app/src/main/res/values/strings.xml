@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">time_count</string>
+    <string name="base_activity">base_activity</string>
+    <string name="main_label_name">计时</string>
+    <string name="time_work">工时</string>
+    <string name="begin_time">上班时间</string>
+    <string name="begin_work">上班</string>
+    <string name="end_time">下班时间</string>
+    <string name="end_work">下班</string>
+    <string name="ensure">添加</string>
+    <string name="time_input_limit">0123456789:</string>
+    <string name="count_list">报表</string>
+    <string name="remove_count">移除</string>
+    <string name="time_count_list">总览</string>
+    <string name="back_main">返回</string>
+    <string name="month">月份</string>
+    <string name="time_month">总计</string>
+    <string name="day_date">日期</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginTop="5dp">
+
+    <View style="@style/LineV"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="@string/begin_work"
+        android:background="@color/gray5"/>
+
+    <View style="@style/LineV"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="@string/end_work"
+        android:background="@color/gray5"/>
+
+    <View style="@style/LineV"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="@string/time_work"
+        android:background="@color/gray5"/>
+
+    <View style="@style/LineV"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/remove_count"
+        android:background="@mipmap/ic_remove"
+        android:layout_marginEnd="5dp"
+        android:visibility="invisible"/>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray5"
+    android:layout_marginTop="5dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/date_day"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="@string/day_date"/>
+
+    <TextView
+        android:id="@+id/text_begin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="@string/begin_time"/>
+
+    <TextView
+        android:id="@+id/text_end"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="@string/end_time"/>
+
+    <TextView
+        android:id="@+id/text_count"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="@string/time_work"/>
+
+</LinearLayout>

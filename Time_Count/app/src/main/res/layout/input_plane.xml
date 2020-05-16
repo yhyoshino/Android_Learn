@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp">
+
+    <TextView
+        android:id="@+id/site_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ensure"
+        android:visibility="invisible"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/begin_time_edit"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:autofillHints="0:00"
+        android:hint="@string/begin_time"
+        android:inputType="time"
+        android:digits="@string/time_input_limit"
+        android:maxLength="5"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/end_time_edit"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:autofillHints="0:00"
+        android:hint="@string/end_time"
+        android:inputType="time"
+        android:digits="@string/time_input_limit"
+        android:maxLength="5"
+        android:layout_marginEnd="5dp"/>
+
+    <Button
+        android:id="@+id/ensure_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ensure"
+        android:layout_marginEnd="5dp"/>
+
+</LinearLayout>
